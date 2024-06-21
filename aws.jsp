@@ -21,7 +21,7 @@
             </ul>
         </div>
         <div class="footer">
-            <button class="curriculum-button" onclick="window.location.href='devops.jsp'"><em>My recommended DevOps Curriculum</em></button>
+            <button class="curriculum-button" data-url="devops.jsp"><em>My recommended DevOps Curriculum</em></button>
         </div>
     </div>
 </body>
