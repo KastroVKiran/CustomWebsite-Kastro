@@ -1,6 +1,16 @@
-/* Add necessary CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
 .container {
-    /* your styles */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .content {
@@ -14,6 +24,37 @@
     left: 10px;
 }
 
+.aws-button, .docker-button, .linkedin-button, .curriculum-button {
+    margin: 10px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
+}
+
+.aws-button {
+    background-color: #FF9900;
+    color: white;
+}
+
+.docker-button {
+    background-color: #0db7ed;
+    color: white;
+}
+
+.linkedin-button {
+    background-color: #0077b5;
+    color: white;
+}
+
 .curriculum-button {
+    background-color: #4CAF50;
+    color: white;
     font-style: italic;
+}
+
+.teacher-image {
+    width: 150px;
+    height: auto;
+    border-radius: 50%;
 }
