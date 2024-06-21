@@ -1,10 +1,21 @@
-function gotoPage(page) {
-    document.body.classList.add('page-turning');
-    setTimeout(function () {
-        window.location.href = page;
-    }, 1000);
-}
+document.addEventListener('DOMContentLoaded', () => {
+    const curriculumButtons = document.querySelectorAll('.curriculum-button');
 
-document.addEventListener('DOMContentLoaded', function () {
-    document.body.classList.remove('page-turning');
+    curriculumButtons.forEach(button => {
+        button.addEventListener('click', (event) => {
+            event.preventDefault();
+            const targetUrl = event.currentTarget.getAttribute('onclick').split('\'')[1];
+
+            // Smooth scrolling animation
+            window.scrollTo({
+                top: 0,
+                behavior: 'smooth'
+            });
+
+            // Delay navigation to allow the smooth scrolling animation to complete
+            setTimeout(() => {
+                window.location.href = targetUrl;
+            }, 500); // Adjust this delay as needed to match the animation duration
+        });
+    });
 });
