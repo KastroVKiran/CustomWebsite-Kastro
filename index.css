@@ -1,70 +1,19 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    text-align: center;
-}
-
-.name {
-    color: #FF9900;
-}
-
-.highlighted-name {
-    color: #FF9900;
-    font-weight: bold;
-}
-
-.trainer {
-    font-weight: bold;
-}
-
+/* Add necessary CSS styles */
 .container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    align-items: center;
-    height: 100vh;
+    /* your styles */
 }
 
 .content {
     text-align: center;
-    max-width: 800px;
-    margin: 0 auto;
 }
 
-.teacher-image {
-    width: 50%;
-    max-width: 400px;
-    height: auto;
-    margin: 20px auto;
-}
-
-.aws-button, .docker-button, .linkedin-button, .curriculum-button {
-    display: inline-block;
-    background-color: #FF9900; /* AWS orange */
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    font-size: 16px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-
-.docker-button {
-    background-color: #2496ED; /* Docker blue */
-}
-
-.linkedin-button {
-    background-color: #0077B5; /* LinkedIn blue */
-}
-
-.image-container {
-    text-align: center;
+.footer {
+    text-align: left;
     position: absolute;
-    bottom: 20px;
-    width: 100%;
+    bottom: 10px;
+    left: 10px;
 }
 
 .curriculum-button {
     font-style: italic;
-    font-family: "Comic Sans MS", cursive, sans-serif; /* Example of a stylish font */
 }
