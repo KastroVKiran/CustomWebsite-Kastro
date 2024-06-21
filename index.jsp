@@ -11,7 +11,7 @@
 <body>
     <div class="container">
         <div class="content">
-            <h1>Hello ... ! <span class="name">Cloud Enthusiast !</span></h1>
+            <h1>Hello. ! <span class="name">Cloud Enthusiast !</span></h1>
             <p>My name is <span class="highlighted-name">Kastro Kiran</span>, I am an <span class="trainer">AWS and DevOps Trainer</span>.</p>
             <p>
                 <a href="https://www.linkedin.com/in/kastro-kiran/" target="_blank">
