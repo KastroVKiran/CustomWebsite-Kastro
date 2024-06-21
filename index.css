@@ -17,44 +17,58 @@ body {
     text-align: center;
 }
 
-.footer {
-    text-align: left;
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
+.image-container {
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-.aws-button, .docker-button, .linkedin-button, .curriculum-button {
-    margin: 10px;
+.teacher-image {
+    max-width: 300px;
+}
+
+.curriculum-button {
+    font-style: italic;
+    background-color: #4CAF50;
+    color: white;
     padding: 10px 20px;
-    font-size: 16px;
+    border: none;
+    cursor: pointer;
+    margin-bottom: 10px;
+}
+
+.curriculum-button:hover {
+    background-color: #45a049;
+}
+
+.aws-button,
+.docker-button,
+.linkedin-button {
+    display: inline-block;
+    background-color: #007BFF;
+    color: white;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px;
     border: none;
     cursor: pointer;
 }
 
-.aws-button {
-    background-color: #FF9900;
-    color: white;
+.aws-button:hover,
+.docker-button:hover,
+.linkedin-button:hover {
+    background-color: #0056b3;
 }
 
-.docker-button {
-    background-color: #0db7ed;
-    color: white;
+.aws-button i,
+.docker-button i,
+.linkedin-button i {
+    margin-right: 10px;
 }
 
-.linkedin-button {
-    background-color: #0077b5;
-    color: white;
-}
-
+.aws-button,
+.docker-button,
+.linkedin-button,
 .curriculum-button {
-    background-color: #4CAF50;
-    color: white;
-    font-style: italic;
-}
-
-.teacher-image {
-    width: 150px;
-    height: auto;
-    border-radius: 50%;
+    font-size: 16px;
 }
