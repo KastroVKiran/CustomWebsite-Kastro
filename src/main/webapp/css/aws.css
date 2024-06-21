@@ -1,0 +1,36 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+h1 {
+    font-weight: bold;
+}
+
+.icon {
+    width: 100px;
+    height: 100px;
+}
+
+.content {
+    text-align: left;
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.curriculum-button {
+    display: inline-block;
+    background-color: #FF9900;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    font-style: italic;
+}
