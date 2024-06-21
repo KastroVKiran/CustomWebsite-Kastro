@@ -21,7 +21,7 @@
             </ul>
         </div>
         <div class="footer">
-            <button class="curriculum-button" onclick="window.location.href='index.jsp'"><em>Goto Home Page</em></button>
+            <button class="curriculum-button" data-url="index.jsp"><em>Goto Home Page</em></button>
         </div>
     </div>
 </body>
