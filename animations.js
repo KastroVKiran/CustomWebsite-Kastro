@@ -1,21 +1,17 @@
 document.addEventListener('DOMContentLoaded', () => {
-    const curriculumButtons = document.querySelectorAll('.curriculum-button');
+    const curriculumButton = document.querySelector('.curriculum-button');
 
-    curriculumButtons.forEach(button => {
-        button.addEventListener('click', (event) => {
-            event.preventDefault();
-            const targetUrl = button.getAttribute('data-url');
+    curriculumButton.addEventListener('click', (event) => {
+        event.preventDefault();
+        const targetUrl = curriculumButton.getAttribute('data-url');
 
-            // Smooth scrolling animation
-            window.scrollTo({
-                top: 0,
-                behavior: 'smooth'
-            });
+        // Page turning animation
+        document.body.style.transition = "transform 0.6s";
+        document.body.style.transform = "rotateY(-180deg)";
 
-            // Delay navigation to allow the smooth scrolling animation to complete
-            setTimeout(() => {
-                window.location.href = targetUrl;
-            }, 500); // Adjust this delay as needed to match the animation duration
-        });
+        // Delay navigation to allow the page turning animation to complete
+        setTimeout(() => {
+            window.location.href = targetUrl;
+        }, 600); // Adjust this delay as needed to match the animation duration
     });
 });
