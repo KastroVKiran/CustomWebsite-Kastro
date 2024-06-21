@@ -1,15 +1,36 @@
-/* Add necessary CSS styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
 .container {
-    /* your styles */
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .content {
-    text-align: left;
+    text-align: center;
 }
 
 .aws-icon {
-    display: block;
-    margin: 0 auto;
+    width: 100px;
+    height: auto;
+    margin: 20px 0;
+}
+
+ul {
+    text-align: left;
+    list-style-type: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 5px 0;
 }
 
 .footer {
@@ -20,5 +41,4 @@
 }
 
 .curriculum-button {
-    font-style: italic;
-}
+    background
