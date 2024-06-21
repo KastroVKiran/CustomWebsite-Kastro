@@ -4,7 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     curriculumButtons.forEach(button => {
         button.addEventListener('click', (event) => {
             event.preventDefault();
-            const targetUrl = event.currentTarget.getAttribute('onclick').split('\'')[1];
+            const targetUrl = button.getAttribute('data-url');
 
             // Smooth scrolling animation
             window.scrollTo({
