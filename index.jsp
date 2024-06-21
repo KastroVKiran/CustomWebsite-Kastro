@@ -21,23 +21,26 @@
                 <a href="https://youtube.com/playlist?list=PLs-PsDpuAuTdOcZa-DDgG8KRbtMI_XRrC&si=7qb7yp6si8oeNwDh" target="_blank">
                     <button class="aws-button"><i class="fab fa-aws"></i> AWS FREE Tutorials</button>
                 </a>
-            </p>
-            <p>
                 <a href="https://www.youtube.com/playlist?list=PLs-PsDpuAuTeNx3OgGQ1QrpNBo-XE6VBh" target="_blank">
                     <button class="docker-button"><i class="fab fa-docker"></i> Docker - Basics to Brilliance</button>
                 </a>
-            </p>
-            <p>
                 <a href="https://www.linkedin.com/in/kastro-kiran/" target="_blank">
                     <button class="linkedin-button"><i class="fab fa-linkedin"></i> Kastro - LinkedIn</button>
                 </a>
             </p>
         </div>
         <div class="image-container">
-            <img src="https://drive.google.com/uc?id=1_hrGLjr_kDXGrRT7V0V_q6-EMebXYCSO" alt="Profile Image" class="teacher-image">
+            <img src="https://media.licdn.com/dms/image/D5603AQHJB_lF1d9OSw/profile-displayphoto-shrink_800_800/0/1718971147172?e=1724284800&v=beta&t=HJC2dPANaLQK7Rs4P6UoZvRAdz0Se5s5js9SvlzhXXI" alt="Profile Image" class="teacher-image">
         </div>
-        <div class="footer">
-            <button class="curriculum-button" data-url="aws.jsp"><em>My recommended AWS Curriculum</em></button>
+        <div class="content">
+            <h2 style="text-align: center; font-weight: bold;">DevOps Roadmap</h2>
+            <img src="https://miro.medium.com/v2/resize:fit:700/1*LJqDYULydnzfkKYeJoMqWw.png" alt="DevOps Roadmap" style="max-width: 100%; display: block; margin: 0 auto;">
+
+            <h3 style="text-align: left; font-weight: bold;">AWS Curriculum</h3>
+            <p style="text-align: left;"><strong>AWS Concepts:</strong> Introduction to Cloud, Cloud Service Providers, AWS Global Infrastructure, S3, EFS, EC2, Auto Scaling, Load Balancers, VPC, IAM, RDS, Dynamo DB, SNS, Cloud Watch, LighSail, Cloud Trial, SQS, SES, Route 53, SnowBall, Elastic BeanStalk, Cloud Formation</p>
+
+            <h3 style="text-align: left; font-weight: bold;">DevOps Curriculum</h3>
+            <p style="text-align: left;"><strong>DevOps Concepts:</strong> System Architecture, Introduction to DevOps, SDLC - Concept & Models, Maven, Git, GitHub, Tomcat, Jenkins, Docker, Kubernetes, Terraform, Ansible, SonarQube</p>
         </div>
     </div>
 </body>
