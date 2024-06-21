@@ -5,16 +5,23 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>AWS Curriculum</title>
     <link rel="stylesheet" type="text/css" href="css/aws.css">
-    <script src="js/animations.js" defer></script>
+    <script src="js/animations.js"></script>
 </head>
 <body>
     <div class="container">
-        <h1>AWS Curriculum</h1>
-        <img src="path/to/aws-icon.png" alt="AWS Icon" class="icon">
         <div class="content">
-            <p><strong>AWS Concepts:</strong> Introduction to Cloud, Cloud Service Providers, AWS Global Infrastructure, S3, EFS, EC2, Auto Scaling, Load Balancers, VPC, IAM, RDS, Dynamo DB, SNS, Cloud Watch, LighSail, Cloud Trial, SQS, SES, Route 53, SnowBall, Elastic BeanStalk, Cloud Formation</p>
-            <!-- Add icons and links to AWS documentation for each service here -->
-            <button class="curriculum-button" onclick="gotoPage('devops.jsp')">My recommended DevOps Curriculum</button>
+            <h1><strong>AWS Curriculum</strong></h1>
+            <img src="https://example.com/aws-icon.png" alt="AWS Icon" class="aws-icon">
+            <p><strong>AWS Concepts:</strong></p>
+            <ul>
+                <li><a href="https://docs.aws.amazon.com/intro-to-cloud/" target="_blank">Introduction to Cloud</a></li>
+                <li><a href="https://docs.aws.amazon.com/global-infrastructure/" target="_blank">AWS Global Infrastructure</a></li>
+                <li><a href="https://docs.aws.amazon.com/s3/" target="_blank">S3</a></li>
+                <!-- Add other AWS services with respective links -->
+            </ul>
+        </div>
+        <div class="footer">
+            <button class="curriculum-button" onclick="window.location.href='devops.jsp'"><em>My recommended DevOps Curriculum</em></button>
         </div>
     </div>
 </body>
